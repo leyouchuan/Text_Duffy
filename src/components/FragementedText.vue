@@ -1,7 +1,7 @@
 <template>
   <div class="fragmented-text">
     <span
-      v-for="(word, wIndex) in words"
+      v-for="(_word, wIndex) in words"
       :key="wIndex"
       class="word"
       :class="{ assembled: assembledIndices.has(wIndex) }"
